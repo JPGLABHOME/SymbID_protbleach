@@ -1,1 +1,0 @@
-## Coral bleaching effects on relative symbiont abundance.
