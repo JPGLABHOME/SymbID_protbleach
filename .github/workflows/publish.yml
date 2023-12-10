@@ -33,7 +33,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./notebooks/sams-notebook
+          source: ./notebooks/sams-notebook/
           destination: ./notebooks/sams-notebook/docs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
