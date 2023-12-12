@@ -30,6 +30,9 @@ website:
           - text: Lab GitHub
             url:  https://github.com/JPGLABHOME
             target: _blank
+      - icon: info-square
+        url: https://padilla-gaminolab.weebly.com/
+        target: _blank
       - icon: rss
         href: index.xml
        
@@ -38,7 +41,7 @@ website:
     
 format:
   html:
-    theme: darkly
+    theme: sandstone
     css: styles.css
     toc: true
     page-layout: full
