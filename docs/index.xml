@@ -10,48 +10,7 @@
 <atom:link href="https://jpglabhome.github.io/SymbID_protbleach/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Sun, 10 Dec 2023 08:00:00 GMT</lastBuildDate>
-<item>
-  <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://jpglabhome.github.io/SymbID_protbleach/posts/post-with-code/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This is a post with executable code.</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://jpglabhome.github.io/SymbID_protbleach/posts/post-with-code/index.html</guid>
-  <pubDate>Sun, 10 Dec 2023 08:00:00 GMT</pubDate>
-  <media:content url="https://jpglabhome.github.io/SymbID_protbleach/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O&#39;Malley</dc:creator>
-  <link>https://jpglabhome.github.io/SymbID_protbleach/posts/welcome/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://jpglabhome.github.io/SymbID_protbleach/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <guid>https://jpglabhome.github.io/SymbID_protbleach/posts/welcome/index.html</guid>
-  <pubDate>Thu, 07 Dec 2023 08:00:00 GMT</pubDate>
-</item>
+<lastBuildDate>Sun, 19 Nov 2023 08:00:00 GMT</lastBuildDate>
 <item>
   <title>qPCR - Initial Primer Tests with Positive Control Serial Dilutions</title>
   <dc:creator>Sam White</dc:creator>
