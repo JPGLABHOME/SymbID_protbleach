@@ -42,13 +42,6 @@
     "text": "Output files\n\nRaw qPCR data (.pcrd; Requires CFX Maestro):\n\nsam_2023-11-19-08-35-30_Connect.pcrd)\n\n“Analysis Mode” was set to “Target” (“Fluorophore” is the default.)\n\n\n\n\nqPCR data (CSV):\n\nsam_2023-11-19_08-35-30_Connect-Quantification-Cq-Results.csv\n\n\n\nqPCR Report (PDF):\n\nsam_2023-11-19_08-35-30_Connect.pdf"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "University of Washington - SAFS - Padilla-Gamiño Lab",
-    "section": "",
-    "text": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions\n\n\n\n\n\n\n\nqPCR\n\n\nCFX Connect\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\nNov 19, 2023\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nDNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay\n\n\n\n\n\n\n\n2023\n\n\nQubit\n\n\nhsDNA\n\n\nDNA quantification\n\n\n\n\n\n\n\n\n\n\n\nNov 5, 2023\n\n\nSam White\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#cact-amplification",
     "href": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#cact-amplification",
     "title": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions",
@@ -75,5 +68,12 @@
     "title": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions",
     "section": "SUMMARY",
     "text": "SUMMARY\nDAct and Mcap_PaxC primers appear to work well and produce amplification at 1000pg and 100pg.\nCAct primer set only amplified a single sample at 100pg. Will need to repeat this, but will plan on ordering a fresh primer set to ensure that issues aren’t due to age."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "University of Washington - SAFS - Padilla-Gamiño Lab",
+    "section": "",
+    "text": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions\n\n\n\n\n\n\n\nqPCR\n\n\nCFX Connect\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\nNov 19, 2023\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nDNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay\n\n\n\n\n\n\n\n2023\n\n\nQubit\n\n\nhsDNA\n\n\nDNA quantification\n\n\n\n\n\n\n\n\n\n\n\nNov 5, 2023\n\n\nSam White\n\n\n\n\n\n\nNo matching items"
   }
 ]
