@@ -1,0 +1,41 @@
+---
+author: Sam White
+toc-title: Contents
+toc-depth: 5
+toc-location: left
+title: DNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay
+date: '2023-11-05'
+draft: false
+engine: knitr
+categories: 
+  - 2023
+  - Qubit
+  - hsDNA
+  - DNA quantification
+---
+# Intro
+
+To begin this project, I opted to re-quantify all of the [DNA samples provided](../../../data/DNA_extractions_all.csv) using the Qubit high senstivity DNA Assay (hsDNA; Invitrogen). I believe the samples had previously been quantified using a NanoDrop. However, looking at the values, many of them are below 5ng/uL, which I have found to be unreliable when using a NanoDrop. The Qubit hsDNA Assay is significantly more sensitive and more accurate at very low sample concentrations.
+
+The assay was run following the manufacturer's protocol. I used 1uL of DNA per reaction (i.e. 1uL of sample added to 199uL of buffer/dye mixture). Measurements were run on the Roberts Lab Qubit 3.0 machine.
+
+# Results
+
+Raw data file is here:
+
+- [`QubitData_2023-11-05_09-25-30.csv`](../../../data/qubit/QubitData_2023-11-05_09-25-30.csv)
+
+```{r count-no-dna, include = FALSE}
+library(dplyr)
+
+qubit.df <- read.csv("../../../data/qubit/QubitData_2023-11-05_09-25-30.csv",
+                     header = TRUE)
+
+
+no.dna.count <- qubit.df %>%
+  select(Original.sample.conc.) %>% 
+  filter(grepl('Out of range', Original.sample.conc.)) %>% 
+  nrow()
+```
+
+A quick glance at the data reveals that there are `r no.dna.count` samples that have _no_ DNA present in them. I'll mention this to Jackie. In the meantime, I'll start testing out the three primer sets.

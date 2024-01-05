@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Symbiont Abundance Notebook</title>
+<link>https://jpglabhome.github.io/SymbID_protbleach/index.html</link>
+<atom:link href="https://jpglabhome.github.io/SymbID_protbleach/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Sun, 10 Dec 2023 08:00:00 GMT</lastBuildDate>
+<item>
+  <title>Post With Code</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>https://jpglabhome.github.io/SymbID_protbleach/posts/post-with-code/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is a post with executable code.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://jpglabhome.github.io/SymbID_protbleach/posts/post-with-code/index.html</guid>
+  <pubDate>Sun, 10 Dec 2023 08:00:00 GMT</pubDate>
+  <media:content url="https://jpglabhome.github.io/SymbID_protbleach/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Welcome To My Blog</title>
+  <dc:creator>Tristan O&#39;Malley</dc:creator>
+  <link>https://jpglabhome.github.io/SymbID_protbleach/posts/welcome/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is the first post in a Quarto blog. Welcome!</p>
+<p><img src="https://jpglabhome.github.io/SymbID_protbleach/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://jpglabhome.github.io/SymbID_protbleach/posts/welcome/index.html</guid>
+  <pubDate>Thu, 07 Dec 2023 08:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>DNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay</title>
+  <dc:creator>Sam White</dc:creator>
+  <link>https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-11-05-DNA-Quantification---Initial-DNA-Assessment-Using-Qubit-hsDNA-Assay/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="intro" class="level1">
+<h1>Intro</h1>
+<p>To begin this project, I opted to re-quantify all of the <a href="../../../data/DNA_extractions_all.csv">DNA samples provided</a> using the Qubit high senstivity DNA Assay (hsDNA; Invitrogen). I believe the samples had previously been quantified using a NanoDrop. However, looking at the values, many of them are below 5ng/uL, which I have found to be unreliable when using a NanoDrop. The Qubit hsDNA Assay is significantly more sensitive and more accurate at very low sample concentrations.</p>
+<p>The assay was run following the manufacturer’s protocol. I used 1uL of DNA per reaction (i.e.&nbsp;1uL of sample added to 199uL of buffer/dye mixture). Measurements were run on the Roberts Lab Qubit 3.0 machine.</p>
+</section>
+<section id="results" class="level1">
+<h1>Results</h1>
+<p>Raw data file is here:</p>
+<ul>
+<li><a href="../../../data/qubit/QubitData_2023-11-05_09-25-30.csv"><code>QubitData_2023-11-05_09-25-30.csv</code></a></li>
+</ul>
+<p>A quick glance at the data reveals that there are 20 samples that have <em>no</em> DNA present in them. I’ll mention this to Jackie. In the meantime, I’ll start testing out the three primer sets.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>2023</category>
+  <category>Qubit</category>
+  <category>hsDNA</category>
+  <category>DNA quantification</category>
+  <guid>https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-11-05-DNA-Quantification---Initial-DNA-Assessment-Using-Qubit-hsDNA-Assay/index.html</guid>
+  <pubDate>Sun, 05 Nov 2023 07:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

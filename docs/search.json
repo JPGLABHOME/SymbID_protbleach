@@ -23,8 +23,15 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Symbiont Abundance Notebook",
+    "title": "University of Washington - SAFS - Padilla-Gamiño Lab",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nDec 10, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nDec 7, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nDec 10, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nDec 7, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\nDNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay\n\n\n\n\n\n\n\n2023\n\n\nQubit\n\n\nhsDNA\n\n\nDNA quantification\n\n\n\n\n\n\n\n\n\n\n\nNov 5, 2023\n\n\nSam White\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2023/2023-11-05-DNA-Quantification---Initial-DNA-Assessment-Using-Qubit-hsDNA-Assay/index.html",
+    "href": "posts/2023/2023-11-05-DNA-Quantification---Initial-DNA-Assessment-Using-Qubit-hsDNA-Assay/index.html",
+    "title": "DNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay",
+    "section": "",
+    "text": "Intro\nTo begin this project, I opted to re-quantify all of the DNA samples provided using the Qubit high senstivity DNA Assay (hsDNA; Invitrogen). I believe the samples had previously been quantified using a NanoDrop. However, looking at the values, many of them are below 5ng/uL, which I have found to be unreliable when using a NanoDrop. The Qubit hsDNA Assay is significantly more sensitive and more accurate at very low sample concentrations.\nThe assay was run following the manufacturer’s protocol. I used 1uL of DNA per reaction (i.e. 1uL of sample added to 199uL of buffer/dye mixture). Measurements were run on the Roberts Lab Qubit 3.0 machine.\n\n\nResults\nRaw data file is here:\n\nQubitData_2023-11-05_09-25-30.csv\n\nA quick glance at the data reveals that there are 20 samples that have no DNA present in them. I’ll mention this to Jackie. In the meantime, I’ll start testing out the three primer sets."
   }
 ]
