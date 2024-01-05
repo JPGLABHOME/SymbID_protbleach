@@ -16,7 +16,7 @@ bibliography: references.bib
 
 # Intro
 
-After quantifying the DNA and awaiting a response no how to handle the lack of DNA in 20 of the samples, I decided to create a serial dilution of some pooled DNA and test the three primer sets. I'd like to get a sense for their specificity, as well as their sensitivity.
+After quantifying the DNA and awaiting a response on how to handle the lack of DNA in 20 of the samples, I decided to create a serial dilution of some pooled DNA and test the three primer sets. I'd like to get a sense for their specificity, as well as their sensitivity.
 
 All primers had been previously ordered/prepped by Tanya Brown. It's my understanding that all three primer set sequences have been taken directly from previously published articles. One caveat is that those articles used these primer sets along with a probe oligo. Due to costs/time, these qPCRs (and all subsequent qPCRs) were performed using SYBR green (i.e. no probe oligo).
 
@@ -45,7 +45,7 @@ Created the 10,000pg/uL stock solution:
 |--------------|--------------|--------------|--------------|-----------------|
 | 12.31333333                            | 9                            | 10                                   | 11.082                     | 2.082                                                 |
 
-10-fold serial dilutions were created, down to 10pg/uL, using 2uL from each previous "stocke" in 18uL of H<sub>2</sub>O.
+10-fold serial dilutions were created, down to 10pg/uL, using 2uL from each previous "stock" in 18uL of H<sub>2</sub>O.
 
 ## qPCRs
 
@@ -83,8 +83,9 @@ Here we see a single sample amplifying, which corresponds to 100pg of input DNA.
 
 ## DAct Amplification
 
-Amplification Plot	Melt Plot
-![DAct Amplificaiton plot showing sample amplification of 1000pg (yellow lines) and 100pg (pink lines) of input DNA](../../../data/qPCR/testing/exported/sam_2023-11-19-08-35-30-DAct-Amplification_plot.png)	![DAct melt plot showing melt curves of 1000pg (yellow lines) and 100pg (pink lines) of input DNA](../../../data/qPCR/testing/exported/sam_2023-11-19-08-35-30-CAct-Melt_plot.png)
+| Amplification Plot                                                                                                                                                                                            | Melt Plot                                                                                                                                                                          |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![DAct Amplificaiton plot showing sample amplification of 1000pg (yellow lines) and 100pg (pink lines) of input DNA](../../../data/qPCR/testing/exported/sam_2023-11-19-08-35-30-DAct-Amplification_plot.png) | ![DAct melt plot showing melt curves of 1000pg (yellow lines) and 100pg (pink lines) of input DNA](../../../data/qPCR/testing/exported/sam_2023-11-19-08-35-30-DAct-Melt_plot.png) |
 
 We see all three reps of 1000pg DNA amplifying (yellow lines) and two of the three 100pg reps amplifying (pink lines). No amplification with 10pg of input DNA. Melt curves look good.
 

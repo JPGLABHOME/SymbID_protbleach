@@ -22,7 +22,7 @@
 
 <section id="intro" class="level1">
 <h1>Intro</h1>
-<p>After quantifying the DNA and awaiting a response no how to handle the lack of DNA in 20 of the samples, I decided to create a serial dilution of some pooled DNA and test the three primer sets. I’d like to get a sense for their specificity, as well as their sensitivity.</p>
+<p>After quantifying the DNA and awaiting a response on how to handle the lack of DNA in 20 of the samples, I decided to create a serial dilution of some pooled DNA and test the three primer sets. I’d like to get a sense for their specificity, as well as their sensitivity.</p>
 <p>All primers had been previously ordered/prepped by Tanya Brown. It’s my understanding that all three primer set sequences have been taken directly from previously published articles. One caveat is that those articles used these primer sets along with a probe oligo. Due to costs/time, these qPCRs (and all subsequent qPCRs) were performed using SYBR green (i.e.&nbsp;no probe oligo).</p>
 <ul>
 <li>CAct (C symbiont) <span class="citation" data-cites="cunning2012">(Ross Cunning and Baker 2012)</span></li>
@@ -101,12 +101,12 @@
 </tr>
 </tbody>
 </table>
-<p>10-fold serial dilutions were created, down to 10pg/uL, using 2uL from each previous “stocke” in 18uL of H<sub>2</sub>O.</p>
+<p>10-fold serial dilutions were created, down to 10pg/uL, using 2uL from each previous “stock” in 18uL of H<sub>2</sub>O.</p>
 </section>
 </section>
 <section id="qpcrs" class="level2">
 <h2 class="anchored" data-anchor-id="qpcrs">qPCRs</h2>
-<p>All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. Each primer was utilized at a final concentration of 0.25uM. See the qPCR Report for cycling parameters.</p>
+<p>All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. Each primer was utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction. See the qPCR Report for cycling parameters.</p>
 <section id="qpcr-calculations-are-here" class="level3">
 <h3 class="anchored" data-anchor-id="qpcr-calculations-are-here">qPCR calculations are here:</h3>
 <ul>
@@ -122,7 +122,10 @@
 <section id="raw-qpcr-data-.pcrd-requires-cfx-maestro" class="level3">
 <h3 class="anchored" data-anchor-id="raw-qpcr-data-.pcrd-requires-cfx-maestro">Raw qPCR data (<code>.pcrd</code>; Requires CFX Maestro):</h3>
 <ul>
-<li><a href="../../../data/qPCR/testing/raw/sam_2023-11-19-08-35-30_Connect.pcrd"><code>sam_2023-11-19-08-35-30_Connect.pcrd)</code></a></li>
+<li><p><a href="../../../data/qPCR/testing/raw/sam_2023-11-19-08-35-30_Connect.pcrd"><code>sam_2023-11-19-08-35-30_Connect.pcrd)</code></a></p>
+<ul>
+<li>“Analysis Mode” was set to “Target” (“Fluorophore” is the default.)</li>
+</ul></li>
 </ul>
 </section>
 <section id="qpcr-data-csv" class="level3">
@@ -134,12 +137,83 @@
 <section id="qpcr-report-pdf" class="level3">
 <h3 class="anchored" data-anchor-id="qpcr-report-pdf">qPCR Report (PDF):</h3>
 <ul>
-<li><a href="../../../data/qPCR/testing/cfx_reports/">``</a></li>
+<li><a href="../../../data/qPCR/testing/cfx_reports/sam_2023-11-19_08-35-30_Connect.pdf"><code>sam_2023-11-19_08-35-30_Connect.pdf</code></a></li>
 </ul>
-
-
-
 </section>
+</section>
+<section id="cact-amplification" class="level2">
+<h2 class="anchored" data-anchor-id="cact-amplification">CAct Amplification</h2>
+<table class="table">
+<colgroup>
+<col style="width: 59%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Amplification Plot</th>
+<th>Melt Plot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="https://jpglabhome.github.io/SymbID_protbleach/data/qPCR/testing/exported/sam_2023-11-19-08-35-30-CAct-Amplification_plot.png" class="img-fluid" alt="CAct Amplificaiton plot showing a single sample amplification of 100pg input DNA at Cq ~= 39"></td>
+<td><img src="https://jpglabhome.github.io/SymbID_protbleach/data/qPCR/testing/exported/sam_2023-11-19-08-35-30-CAct-Melt_plot.png" class="img-fluid" alt="CAct melt plot showing a single melt curve"></td>
+</tr>
+</tbody>
+</table>
+<p>Here we see a single sample amplifying, which corresponds to 100pg of input DNA. It’s odd there’s no amplification in any of the 1000pg samples, considering we got late amplification in one of the 100pg samples… Will have to re-run. Possibly will order fresh primer stocks.</p>
+</section>
+<section id="dact-amplification" class="level2">
+<h2 class="anchored" data-anchor-id="dact-amplification">DAct Amplification</h2>
+<table class="table">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Amplification Plot</th>
+<th>Melt Plot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="https://jpglabhome.github.io/SymbID_protbleach/data/qPCR/testing/exported/sam_2023-11-19-08-35-30-DAct-Amplification_plot.png" class="img-fluid" alt="DAct Amplificaiton plot showing sample amplification of 1000pg (yellow lines) and 100pg (pink lines) of input DNA"></td>
+<td><img src="https://jpglabhome.github.io/SymbID_protbleach/data/qPCR/testing/exported/sam_2023-11-19-08-35-30-DAct-Melt_plot.png" class="img-fluid" alt="DAct melt plot showing melt curves of 1000pg (yellow lines) and 100pg (pink lines) of input DNA"></td>
+</tr>
+</tbody>
+</table>
+<p>We see all three reps of 1000pg DNA amplifying (yellow lines) and two of the three 100pg reps amplifying (pink lines). No amplification with 10pg of input DNA. Melt curves look good.</p>
+</section>
+<section id="mcap_paxc-amplification" class="level2">
+<h2 class="anchored" data-anchor-id="mcap_paxc-amplification">Mcap_PaxC Amplification</h2>
+<table class="table">
+<colgroup>
+<col style="width: 75%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Amplification Plot</th>
+<th>Melt Plot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="https://jpglabhome.github.io/SymbID_protbleach/data/qPCR/testing/data/qPCR/testing/data/qPCR/testing/exported/sam_2023-11-19-08-35-30-CAct-Melt_plot.png)" class="img-fluid" alt="Mcap_paxC Amplificaiton plot showing sample amplification of 1000pg (yellow lines) and 100pg (pink lines) of input DNA"></td>
+<td><img src="https://jpglabhome.github.io/SymbID_protbleach/data/qPCR/testing/exported/sam_2023-11-19-08-35-30-Mcap_PaxC-Melt_plot.png" class="img-fluid" alt="Mcap_paxC melt plot showing melt curves of 1000pg (yellow lines) and 100pg (pink lines) of input DNA"></td>
+</tr>
+</tbody>
+</table>
+<p>We see all three reps of 1000pg DNA amplifying (yellow lines) and all three 100pg reps amplifying (pink lines). No amplification with 10pg of input DNA. Melt curves look good.</p>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">SUMMARY</h2>
+<p>DAct and Mcap_PaxC primers appear to work well and produce amplification at 1000pg and 100pg.</p>
+<p>CAct primer set only amplified a single sample at 100pg. Will need to repeat this, but will plan on ordering a fresh primer set to ensure that issues aren’t due to age.</p>
+
+
+
 </section>
 </section>
 

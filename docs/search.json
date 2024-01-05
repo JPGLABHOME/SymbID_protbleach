@@ -18,28 +18,28 @@
     "href": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html",
     "title": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions",
     "section": "",
-    "text": "After quantifying the DNA and awaiting a response no how to handle the lack of DNA in 20 of the samples, I decided to create a serial dilution of some pooled DNA and test the three primer sets. I’d like to get a sense for their specificity, as well as their sensitivity.\nAll primers had been previously ordered/prepped by Tanya Brown. It’s my understanding that all three primer set sequences have been taken directly from previously published articles. One caveat is that those articles used these primer sets along with a probe oligo. Due to costs/time, these qPCRs (and all subsequent qPCRs) were performed using SYBR green (i.e. no probe oligo).\n\nCAct (C symbiont) (Ross Cunning and Baker 2012)\nDAct (D symbiont) (Ross Cunning and Baker 2012)\nMcap_PaxC (R. Cunning, Ritson-Williams, and Gates 2016)\n\n\n\nCreated a 10ng/uL (10,000pg/uL) “stock” consisting of three samples, two non-bleached (NB) and one bleachd (B). Selected the following samples and pooled them in the following fashion:\n\n\n\n\n\nSAMPLE\nCONCENTRATION(ng/uL)\nVOLUME_USED(uL)\nDNA(ng)\n\n\n\n\nT4.M.41.NB\n21.6\n3\n64.8\n\n\nT5.M.74.B\n10.9\n3\n32.7\n\n\nT4.M.10.NB\n4.44\n3\n13.32\n\n\nTOTAL\n\n9\n110.82\n\n\n\n\n\n\nCreated the 10,000pg/uL stock solution:\n\n\n\n\n\n\n\n\n\n\nConcentrationinitial(ng/uL)\nVolumeinitial(uL)\nConcentrationfinal(ng/uL)\nVolumefinal(uL)\nVolume H2O to reach Volumefinal\n\n\n\n\n12.31333333\n9\n10\n11.082\n2.082\n\n\n\n10-fold serial dilutions were created, down to 10pg/uL, using 2uL from each previous “stocke” in 18uL of H2O.\n\n\n\n\nAll qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. Each primer was utilized at a final concentration of 0.25uM. See the qPCR Report for cycling parameters.\n\n\n\n20231119-qPCR_calcs (Google Sheet)"
+    "text": "After quantifying the DNA and awaiting a response on how to handle the lack of DNA in 20 of the samples, I decided to create a serial dilution of some pooled DNA and test the three primer sets. I’d like to get a sense for their specificity, as well as their sensitivity.\nAll primers had been previously ordered/prepped by Tanya Brown. It’s my understanding that all three primer set sequences have been taken directly from previously published articles. One caveat is that those articles used these primer sets along with a probe oligo. Due to costs/time, these qPCRs (and all subsequent qPCRs) were performed using SYBR green (i.e. no probe oligo).\n\nCAct (C symbiont) (Ross Cunning and Baker 2012)\nDAct (D symbiont) (Ross Cunning and Baker 2012)\nMcap_PaxC (R. Cunning, Ritson-Williams, and Gates 2016)\n\n\n\nCreated a 10ng/uL (10,000pg/uL) “stock” consisting of three samples, two non-bleached (NB) and one bleachd (B). Selected the following samples and pooled them in the following fashion:\n\n\n\n\n\nSAMPLE\nCONCENTRATION(ng/uL)\nVOLUME_USED(uL)\nDNA(ng)\n\n\n\n\nT4.M.41.NB\n21.6\n3\n64.8\n\n\nT5.M.74.B\n10.9\n3\n32.7\n\n\nT4.M.10.NB\n4.44\n3\n13.32\n\n\nTOTAL\n\n9\n110.82\n\n\n\n\n\n\nCreated the 10,000pg/uL stock solution:\n\n\n\n\n\n\n\n\n\n\nConcentrationinitial(ng/uL)\nVolumeinitial(uL)\nConcentrationfinal(ng/uL)\nVolumefinal(uL)\nVolume H2O to reach Volumefinal\n\n\n\n\n12.31333333\n9\n10\n11.082\n2.082\n\n\n\n10-fold serial dilutions were created, down to 10pg/uL, using 2uL from each previous “stock” in 18uL of H2O.\n\n\n\n\nAll qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. Each primer was utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction. See the qPCR Report for cycling parameters.\n\n\n\n20231119-qPCR_calcs (Google Sheet)"
   },
   {
     "objectID": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#serial-dilutions",
     "href": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#serial-dilutions",
     "title": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions",
     "section": "",
-    "text": "Created a 10ng/uL (10,000pg/uL) “stock” consisting of three samples, two non-bleached (NB) and one bleachd (B). Selected the following samples and pooled them in the following fashion:\n\n\n\n\n\nSAMPLE\nCONCENTRATION(ng/uL)\nVOLUME_USED(uL)\nDNA(ng)\n\n\n\n\nT4.M.41.NB\n21.6\n3\n64.8\n\n\nT5.M.74.B\n10.9\n3\n32.7\n\n\nT4.M.10.NB\n4.44\n3\n13.32\n\n\nTOTAL\n\n9\n110.82\n\n\n\n\n\n\nCreated the 10,000pg/uL stock solution:\n\n\n\n\n\n\n\n\n\n\nConcentrationinitial(ng/uL)\nVolumeinitial(uL)\nConcentrationfinal(ng/uL)\nVolumefinal(uL)\nVolume H2O to reach Volumefinal\n\n\n\n\n12.31333333\n9\n10\n11.082\n2.082\n\n\n\n10-fold serial dilutions were created, down to 10pg/uL, using 2uL from each previous “stocke” in 18uL of H2O."
+    "text": "Created a 10ng/uL (10,000pg/uL) “stock” consisting of three samples, two non-bleached (NB) and one bleachd (B). Selected the following samples and pooled them in the following fashion:\n\n\n\n\n\nSAMPLE\nCONCENTRATION(ng/uL)\nVOLUME_USED(uL)\nDNA(ng)\n\n\n\n\nT4.M.41.NB\n21.6\n3\n64.8\n\n\nT5.M.74.B\n10.9\n3\n32.7\n\n\nT4.M.10.NB\n4.44\n3\n13.32\n\n\nTOTAL\n\n9\n110.82\n\n\n\n\n\n\nCreated the 10,000pg/uL stock solution:\n\n\n\n\n\n\n\n\n\n\nConcentrationinitial(ng/uL)\nVolumeinitial(uL)\nConcentrationfinal(ng/uL)\nVolumefinal(uL)\nVolume H2O to reach Volumefinal\n\n\n\n\n12.31333333\n9\n10\n11.082\n2.082\n\n\n\n10-fold serial dilutions were created, down to 10pg/uL, using 2uL from each previous “stock” in 18uL of H2O."
   },
   {
     "objectID": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#qpcrs",
     "href": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#qpcrs",
     "title": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions",
     "section": "",
-    "text": "All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. Each primer was utilized at a final concentration of 0.25uM. See the qPCR Report for cycling parameters.\n\n\n\n20231119-qPCR_calcs (Google Sheet)"
+    "text": "All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. Each primer was utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction. See the qPCR Report for cycling parameters.\n\n\n\n20231119-qPCR_calcs (Google Sheet)"
   },
   {
     "objectID": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#output-files",
     "href": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#output-files",
     "title": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions",
     "section": "Output files",
-    "text": "Output files\n\nRaw qPCR data (.pcrd; Requires CFX Maestro):\n\nsam_2023-11-19-08-35-30_Connect.pcrd)\n\n\n\nqPCR data (CSV):\n\nsam_2023-11-19_08-35-30_Connect-Quantification-Cq-Results.csv\n\n\n\nqPCR Report (PDF):\n\n``"
+    "text": "Output files\n\nRaw qPCR data (.pcrd; Requires CFX Maestro):\n\nsam_2023-11-19-08-35-30_Connect.pcrd)\n\n“Analysis Mode” was set to “Target” (“Fluorophore” is the default.)\n\n\n\n\nqPCR data (CSV):\n\nsam_2023-11-19_08-35-30_Connect-Quantification-Cq-Results.csv\n\n\n\nqPCR Report (PDF):\n\nsam_2023-11-19_08-35-30_Connect.pdf"
   },
   {
     "objectID": "index.html",
@@ -47,5 +47,33 @@
     "title": "University of Washington - SAFS - Padilla-Gamiño Lab",
     "section": "",
     "text": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions\n\n\n\n\n\n\n\nqPCR\n\n\nCFX Connect\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\nNov 19, 2023\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nDNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay\n\n\n\n\n\n\n\n2023\n\n\nQubit\n\n\nhsDNA\n\n\nDNA quantification\n\n\n\n\n\n\n\n\n\n\n\nNov 5, 2023\n\n\nSam White\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#cact-amplification",
+    "href": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#cact-amplification",
+    "title": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions",
+    "section": "CAct Amplification",
+    "text": "CAct Amplification\n\n\n\n\n\n\n\nAmplification Plot\nMelt Plot\n\n\n\n\n\n\n\n\n\nHere we see a single sample amplifying, which corresponds to 100pg of input DNA. It’s odd there’s no amplification in any of the 1000pg samples, considering we got late amplification in one of the 100pg samples… Will have to re-run. Possibly will order fresh primer stocks."
+  },
+  {
+    "objectID": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#dact-amplification",
+    "href": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#dact-amplification",
+    "title": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions",
+    "section": "DAct Amplification",
+    "text": "DAct Amplification\n\n\n\n\n\n\n\nAmplification Plot\nMelt Plot\n\n\n\n\n\n\n\n\n\nWe see all three reps of 1000pg DNA amplifying (yellow lines) and two of the three 100pg reps amplifying (pink lines). No amplification with 10pg of input DNA. Melt curves look good."
+  },
+  {
+    "objectID": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#mcap_paxc-amplification",
+    "href": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#mcap_paxc-amplification",
+    "title": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions",
+    "section": "Mcap_PaxC Amplification",
+    "text": "Mcap_PaxC Amplification\n\n\n\n\n\n\n\nAmplification Plot\nMelt Plot\n\n\n\n\n\n\n\n\n\nWe see all three reps of 1000pg DNA amplifying (yellow lines) and all three 100pg reps amplifying (pink lines). No amplification with 10pg of input DNA. Melt curves look good."
+  },
+  {
+    "objectID": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#summary",
+    "href": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#summary",
+    "title": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions",
+    "section": "SUMMARY",
+    "text": "SUMMARY\nDAct and Mcap_PaxC primers appear to work well and produce amplification at 1000pg and 100pg.\nCAct primer set only amplified a single sample at 100pg. Will need to repeat this, but will plan on ordering a fresh primer set to ensure that issues aren’t due to age."
   }
 ]
