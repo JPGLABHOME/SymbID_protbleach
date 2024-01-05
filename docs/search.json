@@ -7,6 +7,13 @@
     "text": "About this blog"
   },
   {
+    "objectID": "posts/2023/2023-11-05-DNA-Quantification---Initial-DNA-Assessment-Using-Qubit-hsDNA-Assay/index.html",
+    "href": "posts/2023/2023-11-05-DNA-Quantification---Initial-DNA-Assessment-Using-Qubit-hsDNA-Assay/index.html",
+    "title": "DNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay",
+    "section": "",
+    "text": "Intro\nTo begin this project, I opted to re-quantify all of the DNA samples provided using the Qubit high senstivity DNA Assay (hsDNA; Invitrogen). I believe the samples had previously been quantified using a NanoDrop. However, looking at the values, many of them are below 5ng/uL, which I have found to be unreliable when using a NanoDrop. The Qubit hsDNA Assay is significantly more sensitive and more accurate at very low sample concentrations.\nThe assay was run following the manufacturer’s protocol. I used 1uL of DNA per reaction (i.e. 1uL of sample added to 199uL of buffer/dye mixture). Measurements were run on the Roberts Lab Qubit 3.0 machine.\n\n\nResults\nRaw data file is here:\n\nQubitData_2023-11-05_09-25-30.csv\n\nA quick glance at the data reveals that there are 20 samples that have no DNA present in them. I’ll mention this to Jackie. In the meantime, I’ll start testing out the three primer sets."
+  },
+  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
@@ -21,17 +28,38 @@
     "text": "This is a post with executable code."
   },
   {
+    "objectID": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html",
+    "href": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html",
+    "title": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions",
+    "section": "",
+    "text": "After quantifying the DNA and awaiting a response no how to handle the lack of DNA in 20 of the samples, I decided to create a serial dilution of some pooled DNA and test the three primer sets. I’d like to get a sense for their specificity, as well as their sensitivity.\nAll primers had been previously ordered/prepped by Tanya Brown. It’s my understanding that all three primer set sequences have been taken directly from previously published articles. One caveat is that those articles used these primer sets along with a probe oligo. Due to costs/time, these qPCRs (and all subsequent qPCRs) were performed using SYBR green (i.e. no probe oligo).\n\nCAct (C symbiont) (Ross Cunning and Baker 2012)\nDAct (D symbiont) (Ross Cunning and Baker 2012)\nMcap_PaxC (R. Cunning, Ritson-Williams, and Gates 2016)\n\n\n\nCreated a 10ng/uL (10,000pg/uL) “stock” consisting of three samples, two non-bleached (NB) and one bleachd (B). Selected the following samples and pooled them in the following fashion:\n\n\n\n\n\nSAMPLE\nCONCENTRATION(ng/uL)\nVOLUME_USED(uL)\nDNA(ng)\n\n\n\n\nT4.M.41.NB\n21.6\n3\n64.8\n\n\nT5.M.74.B\n10.9\n3\n32.7\n\n\nT4.M.10.NB\n4.44\n3\n13.32\n\n\nTOTAL\n\n9\n110.82\n\n\n\n\n\n\nCreated the 10,000pg/uL stock solution:\n\n\n\n\n\n\n\n\n\n\nConcentrationinitial(ng/uL)\nVolumeinitial(uL)\nConcentrationfinal(ng/uL)\nVolumefinal(uL)\nVolume H2O to reach Volumefinal\n\n\n\n\n12.31333333\n9\n10\n11.082\n2.082\n\n\n\n10-fold serial dilutions were created, down to 10pg/uL, using 2uL from each previous “stocke” in 18uL of H2O.\n\n\n\n\nAll qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. Each primer was utilized at a final concentration of 0.25uM. See the qPCR Report for cycling parameters.\n\n\n\n20231119-qPCR_calcs (Google Sheet)"
+  },
+  {
+    "objectID": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#serial-dilutions",
+    "href": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#serial-dilutions",
+    "title": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions",
+    "section": "",
+    "text": "Created a 10ng/uL (10,000pg/uL) “stock” consisting of three samples, two non-bleached (NB) and one bleachd (B). Selected the following samples and pooled them in the following fashion:\n\n\n\n\n\nSAMPLE\nCONCENTRATION(ng/uL)\nVOLUME_USED(uL)\nDNA(ng)\n\n\n\n\nT4.M.41.NB\n21.6\n3\n64.8\n\n\nT5.M.74.B\n10.9\n3\n32.7\n\n\nT4.M.10.NB\n4.44\n3\n13.32\n\n\nTOTAL\n\n9\n110.82\n\n\n\n\n\n\nCreated the 10,000pg/uL stock solution:\n\n\n\n\n\n\n\n\n\n\nConcentrationinitial(ng/uL)\nVolumeinitial(uL)\nConcentrationfinal(ng/uL)\nVolumefinal(uL)\nVolume H2O to reach Volumefinal\n\n\n\n\n12.31333333\n9\n10\n11.082\n2.082\n\n\n\n10-fold serial dilutions were created, down to 10pg/uL, using 2uL from each previous “stocke” in 18uL of H2O."
+  },
+  {
+    "objectID": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#qpcrs",
+    "href": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#qpcrs",
+    "title": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions",
+    "section": "",
+    "text": "All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. Each primer was utilized at a final concentration of 0.25uM. See the qPCR Report for cycling parameters.\n\n\n\n20231119-qPCR_calcs (Google Sheet)"
+  },
+  {
+    "objectID": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#output-files",
+    "href": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html#output-files",
+    "title": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions",
+    "section": "Output files",
+    "text": "Output files\n\nRaw qPCR data (.pcrd; Requires CFX Maestro):\n\nsam_2023-11-19-08-35-30_Connect.pcrd)\n\n\n\nqPCR data (CSV):\n\nsam_2023-11-19_08-35-30_Connect-Quantification-Cq-Results.csv\n\n\n\nqPCR Report (PDF):\n\n``"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "University of Washington - SAFS - Padilla-Gamiño Lab",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nDec 10, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nDec 7, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\nDNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay\n\n\n\n\n\n\n\n2023\n\n\nQubit\n\n\nhsDNA\n\n\nDNA quantification\n\n\n\n\n\n\n\n\n\n\n\nNov 5, 2023\n\n\nSam White\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/2023/2023-11-05-DNA-Quantification---Initial-DNA-Assessment-Using-Qubit-hsDNA-Assay/index.html",
-    "href": "posts/2023/2023-11-05-DNA-Quantification---Initial-DNA-Assessment-Using-Qubit-hsDNA-Assay/index.html",
-    "title": "DNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay",
-    "section": "",
-    "text": "Intro\nTo begin this project, I opted to re-quantify all of the DNA samples provided using the Qubit high senstivity DNA Assay (hsDNA; Invitrogen). I believe the samples had previously been quantified using a NanoDrop. However, looking at the values, many of them are below 5ng/uL, which I have found to be unreliable when using a NanoDrop. The Qubit hsDNA Assay is significantly more sensitive and more accurate at very low sample concentrations.\nThe assay was run following the manufacturer’s protocol. I used 1uL of DNA per reaction (i.e. 1uL of sample added to 199uL of buffer/dye mixture). Measurements were run on the Roberts Lab Qubit 3.0 machine.\n\n\nResults\nRaw data file is here:\n\nQubitData_2023-11-05_09-25-30.csv\n\nA quick glance at the data reveals that there are 20 samples that have no DNA present in them. I’ll mention this to Jackie. In the meantime, I’ll start testing out the three primer sets."
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nDec 10, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nDec 7, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\nqPCR - Initial Primer Tests with Positive Control Serial Dilutions\n\n\n\n\n\n\n\nqPCR\n\n\nCFX Connect\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\nNov 19, 2023\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nDNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay\n\n\n\n\n\n\n\n2023\n\n\nQubit\n\n\nhsDNA\n\n\nDNA quantification\n\n\n\n\n\n\n\n\n\n\n\nNov 5, 2023\n\n\nSam White\n\n\n\n\n\n\nNo matching items"
   }
 ]

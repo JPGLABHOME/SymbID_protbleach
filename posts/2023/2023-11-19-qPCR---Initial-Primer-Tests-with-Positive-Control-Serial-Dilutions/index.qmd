@@ -1,0 +1,103 @@
+---
+author: Sam White
+toc-title: Contents
+toc-depth: 5
+toc-location: left
+title: qPCR - Initial Primer Tests with Positive Control Serial Dilutions
+date: '2023-11-19'
+draft: false
+engine: knitr
+categories: 
+  - qPCR
+  - CFX Connect
+  - 2023
+bibliography: references.bib
+---
+
+# Intro
+
+After quantifying the DNA and awaiting a response no how to handle the lack of DNA in 20 of the samples, I decided to create a serial dilution of some pooled DNA and test the three primer sets. I'd like to get a sense for their specificity, as well as their sensitivity.
+
+All primers had been previously ordered/prepped by Tanya Brown. It's my understanding that all three primer set sequences have been taken directly from previously published articles. One caveat is that those articles used these primer sets along with a probe oligo. Due to costs/time, these qPCRs (and all subsequent qPCRs) were performed using SYBR green (i.e. no probe oligo).
+
+-   CAct (C symbiont) [@cunning2012]
+-   DAct (D symbiont) [@cunning2012]
+-   Mcap_PaxC [@cunning2016a]
+
+## Serial Dilutions
+
+Created a 10ng/uL (10,000pg/uL) "stock" consisting of three samples, two non-bleached (NB) and one bleachd (B). Selected the following samples and pooled them in the following fashion:
+
+### Samples Used
+
+| SAMPLE     | CONCENTRATION(ng/uL) | VOLUME_USED(uL) | DNA(ng) |
+|------------|----------------------|-----------------|---------|
+| T4.M.41.NB | 21.6                 | 3               | 64.8    |
+| T5.M.74.B  | 10.9                 | 3               | 32.7    |
+| T4.M.10.NB | 4.44                 | 3               | 13.32   |
+| TOTAL      |                      | 9               | 110.82  |
+
+### Dilution Calculations
+
+Created the 10,000pg/uL stock solution:
+
+| Concentration<sub>initial</sub>(ng/uL) | Volume<sub>initial</sub>(uL) | Concentration<sub>final</sub>(ng/uL) | Volume<sub>final</sub>(uL) | Volume H<sub>2</sub>O to reach Volume<sub>final</sub> |
+|--------------|--------------|--------------|--------------|-----------------|
+| 12.31333333                            | 9                            | 10                                   | 11.082                     | 2.082                                                 |
+
+10-fold serial dilutions were created, down to 10pg/uL, using 2uL from each previous "stocke" in 18uL of H<sub>2</sub>O.
+
+## qPCRs
+
+All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. Each primer was utilized with an initial "working stock" concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction. See the [qPCR Report](#qpcr-report-(pdf)) for cycling parameters.
+
+### qPCR calculations are here:
+
+-   [`20231119-qPCR_calcs`](https://docs.google.com/spreadsheets/d/1ISb1ddusjLLSjdh3rafKh9rHuM7nukk2kYJmlkSaBDY/edit?usp=sharing) (Google Sheet)
+
+# Results
+
+## Output files
+
+### Raw qPCR data (`.pcrd`; Requires CFX Maestro):
+
+- [`sam_2023-11-19-08-35-30_Connect.pcrd)`](../../../data/qPCR/testing/raw/sam_2023-11-19-08-35-30_Connect.pcrd)
+
+  - "Analysis Mode" was set to "Target" ("Fluorophore" is the default.)
+
+### qPCR data (CSV):
+
+- [`sam_2023-11-19_08-35-30_Connect-Quantification-Cq-Results.csv`](../../../data/qPCR/testing/exported/sam_2023-11-19_08-35-30_Connect-Quantification-Cq-Results.csv)
+
+### qPCR Report (PDF):
+
+- [`sam_2023-11-19_08-35-30_Connect.pdf`](../../../data/qPCR/testing/cfx_reports/sam_2023-11-19_08-35-30_Connect.pdf)
+
+## CAct Amplification
+
+| Amplification Plot                                                                                                                                                                      | Melt Plot                                                                                                                     |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| ![CAct Amplificaiton plot showing a single sample amplification of 100pg input DNA at Cq ~= 39](../../../data/qPCR/testing/exported/sam_2023-11-19-08-35-30-CAct-Amplification_plot.png) | ![CAct melt plot showing a single melt curve](../../../data/qPCR/testing/exported/sam_2023-11-19-08-35-30-CAct-Melt_plot.png) |
+
+Here we see a single sample amplifying, which corresponds to 100pg of input DNA. It's odd there's no amplification in any of the 1000pg samples, considering we got late amplification in one of the 100pg samples... Will have to re-run. Possibly will order fresh primer stocks.
+
+## DAct Amplification
+
+Amplification Plot	Melt Plot
+![DAct Amplificaiton plot showing sample amplification of 1000pg (yellow lines) and 100pg (pink lines) of input DNA](../../../data/qPCR/testing/exported/sam_2023-11-19-08-35-30-DAct-Amplification_plot.png)	![DAct melt plot showing melt curves of 1000pg (yellow lines) and 100pg (pink lines) of input DNA](../../../data/qPCR/testing/exported/sam_2023-11-19-08-35-30-CAct-Melt_plot.png)
+
+We see all three reps of 1000pg DNA amplifying (yellow lines) and two of the three 100pg reps amplifying (pink lines). No amplification with 10pg of input DNA. Melt curves look good.
+
+## Mcap_PaxC Amplification
+
+| Amplification Plot                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Melt Plot                                                                                                                                                                                    |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Mcap_paxC Amplificaiton plot showing sample amplification of 1000pg (yellow lines) and 100pg (pink lines) of input DNA](../../../data/qPCR/testing/exported/Amplification Plot Melt Plot ![DAct Amplificaiton plot showing sample amplification of 1000pg (yellow lines) and 100pg (pink lines) of input DNA at Cq ~= 39](../../../data/qPCR/testing/exported/sam_2023-11-19-08-35-30-DAct-Amplification_plot.png) ![CAct melt plot showing melt curves of 1000pg (yellow lines) and 100pg (pink lines) of input DNA](../../../data/qPCR/testing/exported/sam_2023-11-19-08-35-30-CAct-Melt_plot.png) ) | ![Mcap_paxC melt plot showing melt curves of 1000pg (yellow lines) and 100pg (pink lines) of input DNA](../../../data/qPCR/testing/exported/sam_2023-11-19-08-35-30-Mcap_PaxC-Melt_plot.png) |
+
+We see all three reps of 1000pg DNA amplifying (yellow lines) and all three 100pg reps amplifying (pink lines). No amplification with 10pg of input DNA. Melt curves look good.
+
+## SUMMARY
+
+DAct and Mcap_PaxC primers appear to work well and produce amplification at 1000pg and 100pg.
+
+CAct primer set only amplified a single sample at 100pg. Will need to repeat this, but will plan on ordering a fresh primer set to ensure that issues aren't due to age.

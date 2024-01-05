@@ -53,6 +53,152 @@
   <pubDate>Thu, 07 Dec 2023 08:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>qPCR - Initial Primer Tests with Positive Control Serial Dilutions</title>
+  <dc:creator>Sam White</dc:creator>
+  <link>https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="intro" class="level1">
+<h1>Intro</h1>
+<p>After quantifying the DNA and awaiting a response no how to handle the lack of DNA in 20 of the samples, I decided to create a serial dilution of some pooled DNA and test the three primer sets. I’d like to get a sense for their specificity, as well as their sensitivity.</p>
+<p>All primers had been previously ordered/prepped by Tanya Brown. It’s my understanding that all three primer set sequences have been taken directly from previously published articles. One caveat is that those articles used these primer sets along with a probe oligo. Due to costs/time, these qPCRs (and all subsequent qPCRs) were performed using SYBR green (i.e.&nbsp;no probe oligo).</p>
+<ul>
+<li>CAct (C symbiont) <span class="citation" data-cites="cunning2012">(Ross Cunning and Baker 2012)</span></li>
+<li>DAct (D symbiont) <span class="citation" data-cites="cunning2012">(Ross Cunning and Baker 2012)</span></li>
+<li>Mcap_PaxC <span class="citation" data-cites="cunning2016a">(R. Cunning, Ritson-Williams, and Gates 2016)</span></li>
+</ul>
+<section id="serial-dilutions" class="level2">
+<h2 class="anchored" data-anchor-id="serial-dilutions">Serial Dilutions</h2>
+<p>Created a 10ng/uL (10,000pg/uL) “stock” consisting of three samples, two non-bleached (NB) and one bleachd (B). Selected the following samples and pooled them in the following fashion:</p>
+<section id="samples-used" class="level3">
+<h3 class="anchored" data-anchor-id="samples-used">Samples Used</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th>SAMPLE</th>
+<th>CONCENTRATION(ng/uL)</th>
+<th>VOLUME_USED(uL)</th>
+<th>DNA(ng)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>T4.M.41.NB</td>
+<td>21.6</td>
+<td>3</td>
+<td>64.8</td>
+</tr>
+<tr class="even">
+<td>T5.M.74.B</td>
+<td>10.9</td>
+<td>3</td>
+<td>32.7</td>
+</tr>
+<tr class="odd">
+<td>T4.M.10.NB</td>
+<td>4.44</td>
+<td>3</td>
+<td>13.32</td>
+</tr>
+<tr class="even">
+<td>TOTAL</td>
+<td></td>
+<td>9</td>
+<td>110.82</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="dilution-calculations" class="level3">
+<h3 class="anchored" data-anchor-id="dilution-calculations">Dilution Calculations</h3>
+<p>Created the 10,000pg/uL stock solution:</p>
+<table class="table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Concentration<sub>initial</sub>(ng/uL)</th>
+<th>Volume<sub>initial</sub>(uL)</th>
+<th>Concentration<sub>final</sub>(ng/uL)</th>
+<th>Volume<sub>final</sub>(uL)</th>
+<th>Volume H<sub>2</sub>O to reach Volume<sub>final</sub></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>12.31333333</td>
+<td>9</td>
+<td>10</td>
+<td>11.082</td>
+<td>2.082</td>
+</tr>
+</tbody>
+</table>
+<p>10-fold serial dilutions were created, down to 10pg/uL, using 2uL from each previous “stocke” in 18uL of H<sub>2</sub>O.</p>
+</section>
+</section>
+<section id="qpcrs" class="level2">
+<h2 class="anchored" data-anchor-id="qpcrs">qPCRs</h2>
+<p>All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. Each primer was utilized at a final concentration of 0.25uM. See the qPCR Report for cycling parameters.</p>
+<section id="qpcr-calculations-are-here" class="level3">
+<h3 class="anchored" data-anchor-id="qpcr-calculations-are-here">qPCR calculations are here:</h3>
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1ISb1ddusjLLSjdh3rafKh9rHuM7nukk2kYJmlkSaBDY/edit?usp=sharing"><code>20231119-qPCR_calcs</code></a> (Google Sheet)</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="results" class="level1">
+<h1>Results</h1>
+<section id="output-files" class="level2">
+<h2 class="anchored" data-anchor-id="output-files">Output files</h2>
+<section id="raw-qpcr-data-.pcrd-requires-cfx-maestro" class="level3">
+<h3 class="anchored" data-anchor-id="raw-qpcr-data-.pcrd-requires-cfx-maestro">Raw qPCR data (<code>.pcrd</code>; Requires CFX Maestro):</h3>
+<ul>
+<li><a href="../../../data/qPCR/testing/raw/sam_2023-11-19-08-35-30_Connect.pcrd"><code>sam_2023-11-19-08-35-30_Connect.pcrd)</code></a></li>
+</ul>
+</section>
+<section id="qpcr-data-csv" class="level3">
+<h3 class="anchored" data-anchor-id="qpcr-data-csv">qPCR data (CSV):</h3>
+<ul>
+<li><a href="../../../data/qPCR/testing/exported/sam_2023-11-19_08-35-30_Connect-Quantification-Cq-Results.csv"><code>sam_2023-11-19_08-35-30_Connect-Quantification-Cq-Results.csv</code></a></li>
+</ul>
+</section>
+<section id="qpcr-report-pdf" class="level3">
+<h3 class="anchored" data-anchor-id="qpcr-report-pdf">qPCR Report (PDF):</h3>
+<ul>
+<li><a href="../../../data/qPCR/testing/cfx_reports/">``</a></li>
+</ul>
+
+
+
+</section>
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-cunning2012" class="csl-entry">
+Cunning, Ross, and Andrew C. Baker. 2012. <span>“Excess Algal Symbionts Increase the Susceptibility of Reef Corals to Bleaching.”</span> <em>Nature Climate Change</em> 3 (3): 259–62. <a href="https://doi.org/10.1038/nclimate1711">https://doi.org/10.1038/nclimate1711</a>.
+</div>
+<div id="ref-cunning2016a" class="csl-entry">
+Cunning, R, R Ritson-Williams, and RD Gates. 2016. <span>“Patterns of Bleaching and Recovery of Montipora Capitata in K<span>ā</span>ne<span>‘</span>ohe Bay, Hawai<span>‘</span>i, USA.”</span> <em>Marine Ecology Progress Series</em> 551 (June): 131–39. <a href="https://doi.org/10.3354/meps11733">https://doi.org/10.3354/meps11733</a>.
+</div>
+</div></section></div> ]]></description>
+  <category>qPCR</category>
+  <category>CFX Connect</category>
+  <category>2023</category>
+  <guid>https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html</guid>
+  <pubDate>Sun, 19 Nov 2023 08:00:00 GMT</pubDate>
+</item>
+<item>
   <title>DNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay</title>
   <dc:creator>Sam White</dc:creator>
   <link>https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-11-05-DNA-Quantification---Initial-DNA-Assessment-Using-Qubit-hsDNA-Assay/index.html</link>
