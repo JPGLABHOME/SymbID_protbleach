@@ -1,17 +1,38 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "University of Washington - SAFS - Padilla-Gamiño Lab",
     "section": "",
-    "text": "About this blog"
+    "text": "qPCR - CAct Primer Test With 10ng Input DNA\n\n\n\n\n\n\n\n2023\n\n\nqPCR\n\n\nCFX Connect\n\n\nCAct\n\n\n\n\n\n\n\n\n\n\n\nDec 12, 2024\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nqPCR - New CAct Primer Test\n\n\n\n\n\n\n\nCAct\n\n\nqPCR\n\n\nCFX Connect\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\nDec 10, 2024\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nqPCR - Repeat CAct Primer Test\n\n\n\n\n\n\n\n2023\n\n\nCFX Connect\n\n\nqPCR\n\n\nCAct\n\n\n\n\n\n\n\n\n\n\n\nDec 10, 2024\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nqPCR - Initial Primer Tests with Positive Control Serial Dilutions\n\n\n\n\n\n\n\nqPCR\n\n\nCFX Connect\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\nNov 19, 2023\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nDNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay\n\n\n\n\n\n\n\n2023\n\n\nQubit\n\n\nhsDNA\n\n\nDNA quantification\n\n\n\n\n\n\n\n\n\n\n\nNov 5, 2023\n\n\nSam White\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/2023/2023-11-05-DNA-Quantification---Initial-DNA-Assessment-Using-Qubit-hsDNA-Assay/index.html",
-    "href": "posts/2023/2023-11-05-DNA-Quantification---Initial-DNA-Assessment-Using-Qubit-hsDNA-Assay/index.html",
-    "title": "DNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay",
+    "objectID": "posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html",
+    "href": "posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html",
+    "title": "qPCR - Repeat CAct Primer Test",
     "section": "",
-    "text": "Intro\nTo begin this project, I opted to re-quantify all of the DNA samples provided using the Qubit high senstivity DNA Assay (hsDNA; Invitrogen). I believe the samples had previously been quantified using a NanoDrop. However, looking at the values, many of them are below 5ng/uL, which I have found to be unreliable when using a NanoDrop. The Qubit hsDNA Assay is significantly more sensitive and more accurate at very low sample concentrations.\nThe assay was run following the manufacturer’s protocol. I used 1uL of DNA per reaction (i.e. 1uL of sample added to 199uL of buffer/dye mixture). Measurements were run on the Roberts Lab Qubit 3.0 machine.\n\n\nResults\nRaw data file is here:\n\nQubitData_2023-11-05_09-25-30.csv\n\nA quick glance at the data reveals that there are 20 samples that have no DNA present in them. I’ll mention this to Jackie. In the meantime, I’ll start testing out the three primer sets."
+    "text": "Due to odd results from earlier today (Notebook), I repeated this qPCR to see if I could get better replication and consistent melt curves across samples.\n\n\nAll qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction.\n\n\n\n\n20231210-qPCR_calcs (Google Sheet)"
+  },
+  {
+    "objectID": "posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html#qpcrs",
+    "href": "posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html#qpcrs",
+    "title": "qPCR - Repeat CAct Primer Test",
+    "section": "",
+    "text": "All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction."
+  },
+  {
+    "objectID": "posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html#qpcr-calculations",
+    "href": "posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html#qpcr-calculations",
+    "title": "qPCR - Repeat CAct Primer Test",
+    "section": "",
+    "text": "20231210-qPCR_calcs (Google Sheet)"
+  },
+  {
+    "objectID": "posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html#output-files",
+    "href": "posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html#output-files",
+    "title": "qPCR - Repeat CAct Primer Test",
+    "section": "Output files",
+    "text": "Output files\n\nRaw qPCR data (.pcrd; Requires CFX Maestro):\n\nsam_2023-12-10_09-26-24_Connect.pcrd\n\n“Analysis Mode” was set to “Target” (“Fluorophore” is the default.)\nBaseline threshold was set to “Regression”\n\n\n\n\nqPCR data (CSV):\n\nsam_2023-12-10_09-26-24_Connect-Quantification-Cq_Results.csv\n\n\n\nqPCR Report (PDF):\n\nsam_2023-12-10_07-50-37_Connect.pdf\n\n\n\n\n\n\n\nCAct amplification plot. Green line is 1000pg input DNA and corresponds to a Cq value of ~37.\n\n\n\n\n\n\n\nCAct melt plot. Green peak is 1000ng input DNA.\n\n\n\n\n\nWell, the results are similar to the previous run, in that there’s a single 1000pg replicate which amplifies at a Cq of ~37, while we no longer see amplification in any 100pg replicates. Admittedly, the latter was expected, based on the different melting temp of the 100pg product seen previously; i.e. the previous amplification of 100pg DNA wasn’t “real.”\nHowever, what was not expected was my continued inability to produce proper technical replicates. I’m wondering if the sensitivity of this primer is low enough that it’s causing a large (i.e. ~3 Cq) swing in Cqs between replicates. I’ll repeat this using the 10,000pg (10ng) stock to see if this improves replication…"
   },
   {
     "objectID": "posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html",
@@ -70,10 +91,73 @@
     "text": "SUMMARY\nDAct and Mcap_PaxC primers appear to work well and produce amplification at 1000pg and 100pg.\nCAct primer set only amplified a single sample at 100pg. Will need to repeat this, but will plan on ordering a fresh primer set to ensure that issues aren’t due to age."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "University of Washington - SAFS - Padilla-Gamiño Lab",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "qPCR - Initial Primer Tests with Positive Control Serial Dilutions\n\n\n\n\n\n\n\nqPCR\n\n\nCFX Connect\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\nNov 19, 2023\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nDNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay\n\n\n\n\n\n\n\n2023\n\n\nQubit\n\n\nhsDNA\n\n\nDNA quantification\n\n\n\n\n\n\n\n\n\n\n\nNov 5, 2023\n\n\nSam White\n\n\n\n\n\n\nNo matching items"
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/index.html",
+    "href": "posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/index.html",
+    "title": "qPCR - New CAct Primer Test",
+    "section": "",
+    "text": "Previous qPCR from 20231119 had poor results with the CAct primer set (C symbiont). No amplication at 1000pg, a single sample amplified at 100pg, and no amplification at 10pg of input DNA. I opted to order a replacement of the CAct primer set and repeat the qPCRs using the same serial dilution series and only this new CAct primer set.\n\n\nAll qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction.\n\n\n\n\n20231210-qPCR_calcs (Google Sheet)"
+  },
+  {
+    "objectID": "posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/index.html#qpcrs",
+    "href": "posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/index.html#qpcrs",
+    "title": "qPCR - New CAct Primer Test",
+    "section": "",
+    "text": "All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction."
+  },
+  {
+    "objectID": "posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/index.html#qpcr-calculations",
+    "href": "posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/index.html#qpcr-calculations",
+    "title": "qPCR - New CAct Primer Test",
+    "section": "",
+    "text": "20231210-qPCR_calcs (Google Sheet)"
+  },
+  {
+    "objectID": "posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/index.html#output-files",
+    "href": "posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/index.html#output-files",
+    "title": "qPCR - New CAct Primer Test",
+    "section": "Output files",
+    "text": "Output files\n\nRaw qPCR data (.pcrd; Requires CFX Maestro):\n\nsam_2023-12-10_07-50-37_Connect.pcrd)\n\n“Analysis Mode” was set to “Target” (“Fluorophore” is the default.)\nBaseline threshold was set to “Regression”\n\n\n\n\nqPCR data (CSV):\n\nsam_2023-12-10_07-50-37_Connect-Quantification-Cq_Results.csv\n\n\n\nqPCR Report (PDF):\n\nsam_2023-12-10_07-50-37_Connect.pdf\n\n\n\n\n\n\n\nCAct amplification plot. Green line is 1000pg input DNA and corresponds to a Cq value of ~37. Black line is 100pg input DNA and corresponds to a Cq value of ~39.\n\n\n\n\n\n\n\nCAct melt plot. Black peak is 100pg input DNA, is below red horizontal threshold line and melt temperature is shifted lower than green peak. Green peak is 1000ng input DNA and is likely the correct product.\n\n\n\n\n\nIn the above plots, the green line represents 1000pg of input DNA, while the black line represents 100pg of input DNA. Both sets show only a single sample ampifying (1000pg corresponds to a Cq value of ~37. 100pg corresponds to a Cq value of ~39), despite being run in triplicate. Additionally, the melt curves show that the 100pg samples (black peak) doesn’t reach thre threshold and is shifted to a lower temperature than the 1000pg sample. Taken all together, this qPCR should be repeated to try to overcome the poor replication and the odd differences in qPCR products evidenced by the differences in melting temperatures between the 1000pg and 100pg samples."
+  },
+  {
+    "objectID": "posts/2023/2023-11-05-DNA-Quantification---Initial-DNA-Assessment-Using-Qubit-hsDNA-Assay/index.html",
+    "href": "posts/2023/2023-11-05-DNA-Quantification---Initial-DNA-Assessment-Using-Qubit-hsDNA-Assay/index.html",
+    "title": "DNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay",
+    "section": "",
+    "text": "Intro\nTo begin this project, I opted to re-quantify all of the DNA samples provided using the Qubit high senstivity DNA Assay (hsDNA; Invitrogen). I believe the samples had previously been quantified using a NanoDrop. However, looking at the values, many of them are below 5ng/uL, which I have found to be unreliable when using a NanoDrop. The Qubit hsDNA Assay is significantly more sensitive and more accurate at very low sample concentrations.\nThe assay was run following the manufacturer’s protocol. I used 1uL of DNA per reaction (i.e. 1uL of sample added to 199uL of buffer/dye mixture). Measurements were run on the Roberts Lab Qubit 3.0 machine.\n\n\nResults\nRaw data file is here:\n\nQubitData_2023-11-05_09-25-30.csv\n\nA quick glance at the data reveals that there are 20 samples that have no DNA present in them. I’ll mention this to Jackie. In the meantime, I’ll start testing out the three primer sets."
+  },
+  {
+    "objectID": "posts/2023/2023-12-12-qPCR---CAct-Primer-Test-With-10ng-Input-DNA/index.html",
+    "href": "posts/2023/2023-12-12-qPCR---CAct-Primer-Test-With-10ng-Input-DNA/index.html",
+    "title": "qPCR - CAct Primer Test With 10ng Input DNA",
+    "section": "",
+    "text": "Previous CAct qPCRs from 20231210 (run 1 and run 2) exhibited lack of amplification in 100pg and 10pg input DNA quantities, as well as poor replication in 1000pg DNA input quantity, so I decided to see if poor replication was potentially related to poor sensitivity of the CAct primer (i.e. input DNA quantity was too low for accurate replication) set by running a 10,000pg (10ng) input DNA quantity.\n\n\nAll qPCRs were run in duplicate for each dilution (10,000pg, 1000pg, 100pg), with SsoAdvanced Universal SYBR Green Supermix (Bio-Rad) in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction.\nUnlike previous reactions, replicates were only performed in duplicate, as opposed to triplicate, due to limits in the quantity of the 10,000pg (10ng) stock. This stock was consists of pooled DNA (Notebook) from other samples and was instended to be able to serve as the source of positive control DNA for all subsequent qPCRs for this project. I didn’t want to use too much at this point in time and have the possibility of having to make a fresh stock and use even more of the individual DNA samples which still need to be used for the actual project.\n\n\n\n\n20231210-qPCR_calcs (Google Sheet)"
+  },
+  {
+    "objectID": "posts/2023/2023-12-12-qPCR---CAct-Primer-Test-With-10ng-Input-DNA/index.html#qpcrs",
+    "href": "posts/2023/2023-12-12-qPCR---CAct-Primer-Test-With-10ng-Input-DNA/index.html#qpcrs",
+    "title": "qPCR - CAct Primer Test With 10ng Input DNA",
+    "section": "",
+    "text": "All qPCRs were run in duplicate for each dilution (10,000pg, 1000pg, 100pg), with SsoAdvanced Universal SYBR Green Supermix (Bio-Rad) in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction.\nUnlike previous reactions, replicates were only performed in duplicate, as opposed to triplicate, due to limits in the quantity of the 10,000pg (10ng) stock. This stock was consists of pooled DNA (Notebook) from other samples and was instended to be able to serve as the source of positive control DNA for all subsequent qPCRs for this project. I didn’t want to use too much at this point in time and have the possibility of having to make a fresh stock and use even more of the individual DNA samples which still need to be used for the actual project."
+  },
+  {
+    "objectID": "posts/2023/2023-12-12-qPCR---CAct-Primer-Test-With-10ng-Input-DNA/index.html#qpcr-calculations",
+    "href": "posts/2023/2023-12-12-qPCR---CAct-Primer-Test-With-10ng-Input-DNA/index.html#qpcr-calculations",
+    "title": "qPCR - CAct Primer Test With 10ng Input DNA",
+    "section": "",
+    "text": "20231210-qPCR_calcs (Google Sheet)"
+  },
+  {
+    "objectID": "posts/2023/2023-12-12-qPCR---CAct-Primer-Test-With-10ng-Input-DNA/index.html#output-files",
+    "href": "posts/2023/2023-12-12-qPCR---CAct-Primer-Test-With-10ng-Input-DNA/index.html#output-files",
+    "title": "qPCR - CAct Primer Test With 10ng Input DNA",
+    "section": "Output files",
+    "text": "Output files\n\nRaw qPCR data (.pcrd; Requires CFX Maestro):\n\nsam_2023-12-10_09-26-24_Connect.pcrd\n\n“Analysis Mode” was set to “Target” (“Fluorophore” is the default.)\nBaseline threshold was set to “Regression”\n\n\n\n\nqPCR data (CSV):\n\nsam_2023-12-10_09-26-24_Connect-Quantification-Cq_Results.csv\n\n\n\nqPCR Report (PDF):\n\nsam_2023-12-10_07-50-37_Connect.pdf\n\n\n\n\n\n\n\nCAct amplification plot. Green lines are 10,000pg input DNA and correspond to Cq values of ~33 and ~35. Black line is 1,000pg input DNA and corresponds to a Cq value of ~37.\n\n\n\n\n\n\n\nCAct melt plot. Green peaks are 10,000pg input DNA and black peak is 1,000pg input DNA.\n\n\n\n\n\nIn the amplification plot, green lines are 10,000pg input DNA and correspond to Cq values of ~33 and ~35. Black line is 1,000pg input DNA and corresponds to a Cq value of ~37. We see both replicates of the 10,000pg input DNA samples produce amplificaiton, however the variation between replicates was attrocious. While with the 1,000pg input DNA sample, I’ve managed to reproduce this behavior across three different qPCRs! Only a single replicate ampflifies at a Cq of ~37. The resulting melt curves looks good (i.e. narrow peaks, same melt temp across reps/samples.)."
   }
 ]

@@ -10,7 +10,262 @@
 <atom:link href="https://jpglabhome.github.io/SymbID_protbleach/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Sun, 19 Nov 2023 08:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 12 Dec 2024 08:00:00 GMT</lastBuildDate>
+<item>
+  <title>qPCR - CAct Primer Test With 10ng Input DNA</title>
+  <dc:creator>Sam White</dc:creator>
+  <link>https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-12-12-qPCR---CAct-Primer-Test-With-10ng-Input-DNA/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="intro" class="level1">
+<h1>Intro</h1>
+<p>Previous CAct qPCRs from 20231210 (<a href="https://jpglabhome.github.io/SymbID_protbleach/2023-12-10-qPCR---New-CAct-Primer-Test">run 1</a> and <a href="https://jpglabhome.github.io/SymbID_protbleach/2023-12-10-qPCR---Repeat-CAct-Primer-Test/">run 2</a>) exhibited lack of amplification in 100pg and 10pg input DNA quantities, as well as poor replication in 1000pg DNA input quantity, so I decided to see if poor replication was potentially related to poor sensitivity of the CAct primer (i.e.&nbsp;input DNA quantity was too low for accurate replication) set by running a 10,000pg (10ng) input DNA quantity.</p>
+<section id="qpcrs" class="level2">
+<h2 class="anchored" data-anchor-id="qpcrs">qPCRs</h2>
+<p>All qPCRs were run in duplicate for each dilution (10,000pg, 1000pg, 100pg), with <a href="https://www.bio-rad.com/sites/default/files/webroot/web/pdf/lsr/literature/10000076382.pdf">SsoAdvanced Universal SYBR Green Supermix</a> (Bio-Rad) in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction.</p>
+<p>Unlike previous reactions, replicates were only performed in duplicate, as opposed to triplicate, due to limits in the quantity of the 10,000pg (10ng) stock. This stock was consists of <a href="https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/#serial-dilutions">pooled DNA</a> (Notebook) from other samples and was instended to be able to serve as the source of positive control DNA for all subsequent qPCRs for this project. I didn’t want to use too much at this point in time and have the possibility of having to make a fresh stock and use even more of the individual DNA samples which still need to be used for the actual project.</p>
+</section>
+<section id="qpcr-calculations" class="level2">
+<h2 class="anchored" data-anchor-id="qpcr-calculations">qPCR calculations</h2>
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1dnuJzmNqAzvgVht9TEDm5e1sXGLLLcDxT8YvYFmLQbg/edit?usp=sharing">20231210-qPCR_calcs</a> (Google Sheet)</li>
+</ul>
+</section>
+</section>
+<section id="results" class="level1">
+<h1>Results</h1>
+<section id="output-files" class="level2">
+<h2 class="anchored" data-anchor-id="output-files">Output files</h2>
+<section id="raw-qpcr-data-.pcrd-requires-cfx-maestro" class="level3">
+<h3 class="anchored" data-anchor-id="raw-qpcr-data-.pcrd-requires-cfx-maestro">Raw qPCR data (<code>.pcrd</code>; Requires CFX Maestro):</h3>
+<ul>
+<li><p><a href="../../../data/qPCR/testing/raw/sam_2023-12-12_05-39-11_Connect.pcrd"><code>sam_2023-12-10_09-26-24_Connect.pcrd</code></a></p>
+<ul>
+<li><p>“Analysis Mode” was set to “Target” (“Fluorophore” is the default.)</p></li>
+<li><p>Baseline threshold was set to “Regression”</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="qpcr-data-csv" class="level3">
+<h3 class="anchored" data-anchor-id="qpcr-data-csv">qPCR data (CSV):</h3>
+<ul>
+<li><a href="../../../data/qPCR/testing/exported/sam_2023-12-12_05-39-11_Connect-Quantification-Cq_Results.csv"><code>sam_2023-12-10_09-26-24_Connect-Quantification-Cq_Results.csv</code></a></li>
+</ul>
+</section>
+<section id="qpcr-report-pdf" class="level3">
+<h3 class="anchored" data-anchor-id="qpcr-report-pdf">qPCR Report (PDF):</h3>
+<ul>
+<li><a href="../../../data/qPCR/testing/cfx_reports/sam_2023-12-12_05-39-11_Connect.pdf"><code>sam_2023-12-10_07-50-37_Connect.pdf</code></a></li>
+</ul>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-12-12-qPCR---CAct-Primer-Test-With-10ng-Input-DNA/https:/raw.githubusercontent.com/JPGLABHOME/SymbID_protbleach/main/data/qPCR/testing/exported/sam_2023-12-12_05-39-11-CAct-Amplification_plot.png" class="img-fluid figure-img" alt="CAct amplification plot. Green lines are 10,000pg input DNA and corresponds to Cq values of ~33 and ~35. Black line is 1,000pg input DNA and corresponds to a Cq value of ~37."></p>
+<figcaption class="figure-caption">CAct amplification plot. Green lines are 10,000pg input DNA and correspond to Cq values of ~33 and ~35. Black line is 1,000pg input DNA and corresponds to a Cq value of ~37.</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-12-12-qPCR---CAct-Primer-Test-With-10ng-Input-DNA/https:/raw.githubusercontent.com/JPGLABHOME/SymbID_protbleach/main/data/qPCR/testing/exported/sam_2023-12-12_05-39-11-CAct-Melt_plot.png" class="img-fluid figure-img" alt="CAct melt plot. Green peaks are 10,000pg input DNA and black peak is 1,000pg input DNA."></p>
+<figcaption class="figure-caption">CAct melt plot. Green peaks are 10,000pg input DNA and black peak is 1,000pg input DNA.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>In the amplification plot, green lines are 10,000pg input DNA and correspond to Cq values of ~33 and ~35. Black line is 1,000pg input DNA and corresponds to a Cq value of ~37. We see both replicates of the 10,000pg input DNA samples produce amplificaiton, however the variation between replicates was attrocious. While with the 1,000pg input DNA sample, I’ve managed to reproduce this behavior across three different qPCRs! Only a single replicate ampflifies at a Cq of ~37. The resulting melt curves looks good (i.e.&nbsp;narrow peaks, same melt temp across reps/samples.).</p>
+</section>
+</section>
+</section>
+<section id="summary" class="level1">
+<h1>Summary</h1>
+<p>At this point, I’m becoming suspicious of the input DNA, since the CAct primers are brand new, as well as the qPCR reagents. Additionally, a bigger concern is that the sensitivity (and/or the amount of C symbiont DNA present in samples) is too low to accurately detect across samples. Most of the samples are so dilute and/or have so little DNA that we will be unable to use 1,000pg of DNA per qPCR reaction - which is, essentially, the minimum quantity of DNA needed to get any detectable amplificaiton of the C symbiont DNA. Not entirely sure what the implications will be for the remainder of this project.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>2023</category>
+  <category>qPCR</category>
+  <category>CFX Connect</category>
+  <category>CAct</category>
+  <guid>https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-12-12-qPCR---CAct-Primer-Test-With-10ng-Input-DNA/index.html</guid>
+  <pubDate>Thu, 12 Dec 2024 08:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>qPCR - New CAct Primer Test</title>
+  <dc:creator>Sam White</dc:creator>
+  <link>https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="intro" class="level1">
+<h1>Intro</h1>
+<p>Previous qPCR <a href="https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/">from 20231119</a> had poor results with the CAct primer set (C symbiont). No amplication at 1000pg, a single sample amplified at 100pg, and no amplification at 10pg of input DNA. I opted to order a replacement of the CAct primer set and repeat the qPCRs using the same serial dilution series and only this new CAct primer set.</p>
+<section id="qpcrs" class="level2">
+<h2 class="anchored" data-anchor-id="qpcrs">qPCRs</h2>
+<p>All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction.</p>
+</section>
+<section id="qpcr-calculations" class="level2">
+<h2 class="anchored" data-anchor-id="qpcr-calculations">qPCR calculations</h2>
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1dnuJzmNqAzvgVht9TEDm5e1sXGLLLcDxT8YvYFmLQbg/edit?usp=sharing">20231210-qPCR_calcs</a> (Google Sheet)</li>
+</ul>
+</section>
+</section>
+<section id="results" class="level1">
+<h1>Results</h1>
+<section id="output-files" class="level2">
+<h2 class="anchored" data-anchor-id="output-files">Output files</h2>
+<section id="raw-qpcr-data-.pcrd-requires-cfx-maestro" class="level3">
+<h3 class="anchored" data-anchor-id="raw-qpcr-data-.pcrd-requires-cfx-maestro">Raw qPCR data (<code>.pcrd</code>; Requires CFX Maestro):</h3>
+<ul>
+<li><p><a href="../../../data/qPCR/testing/raw/sam_2023-12-10_07-50-37_Connect.pcrd"><code>sam_2023-12-10_07-50-37_Connect.pcrd)</code></a></p>
+<ul>
+<li><p>“Analysis Mode” was set to “Target” (“Fluorophore” is the default.)</p></li>
+<li><p>Baseline threshold was set to “Regression”</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="qpcr-data-csv" class="level3">
+<h3 class="anchored" data-anchor-id="qpcr-data-csv">qPCR data (CSV):</h3>
+<ul>
+<li><a href="../../../data/qPCR/testing/exported/sam_2023-12-10_07-50-37_Connect-Quantification-Cq_Results.csv"><code>sam_2023-12-10_07-50-37_Connect-Quantification-Cq_Results.csv</code></a></li>
+</ul>
+</section>
+<section id="qpcr-report-pdf" class="level3">
+<h3 class="anchored" data-anchor-id="qpcr-report-pdf">qPCR Report (PDF):</h3>
+<ul>
+<li><a href="../../../data/qPCR/testing/cfx_reports/sam_2023-12-10_07-50-37_Connect.pdf"><code>sam_2023-12-10_07-50-37_Connect.pdf</code></a></li>
+</ul>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/https:/raw.githubusercontent.com/JPGLABHOME/SymbID_protbleach/main/data/qPCR/testing/exported/sam_2023-12-10_07-50-37-CAct-Amplification_plot.png" class="img-fluid figure-img" alt="CAct amplification plot. Green line is 1000pg input DNA and corresponds to a Cq value of ~37. Black line is 100pg input DNA and corresponds to a Cq value of ~39."></p>
+<figcaption class="figure-caption">CAct amplification plot. Green line is 1000pg input DNA and corresponds to a Cq value of ~37. Black line is 100pg input DNA and corresponds to a Cq value of ~39.</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/https:/raw.githubusercontent.com/JPGLABHOME/SymbID_protbleach/main/data/qPCR/testing/exported/sam_2023-12-10_07-50-37-CAct-Melt_plot.png" class="img-fluid figure-img" alt="CAct melt plot. Black peak is 100pg input DNA, is below red horizontal threshold line and melt temperature is shifted lower than green peak. Green peak is 1000ng input DNA and is likely the correct product."></p>
+<figcaption class="figure-caption">CAct melt plot. Black peak is 100pg input DNA, is below red horizontal threshold line and melt temperature is shifted lower than green peak. Green peak is 1000ng input DNA and is likely the correct product.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>In the above plots, the green line represents 1000pg of input DNA, while the black line represents 100pg of input DNA. Both sets show only a single sample ampifying (1000pg corresponds to a Cq value of ~37. 100pg corresponds to a Cq value of ~39), despite being run in triplicate. Additionally, the melt curves show that the 100pg samples (black peak) doesn’t reach thre threshold <em>and</em> is shifted to a lower temperature than the 1000pg sample. Taken all together, this qPCR should be repeated to try to overcome the poor replication and the odd differences in qPCR products evidenced by the differences in melting temperatures between the 1000pg and 100pg samples.</p>
+
+
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <category>CAct</category>
+  <category>qPCR</category>
+  <category>CFX Connect</category>
+  <category>2023</category>
+  <guid>https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/index.html</guid>
+  <pubDate>Tue, 10 Dec 2024 08:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>qPCR - Repeat CAct Primer Test</title>
+  <dc:creator>Sam White</dc:creator>
+  <link>https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="intro" class="level1">
+<h1>Intro</h1>
+<p>Due to odd results from <a href="https://jpglabhome.github.io/SymbID_protbleach/posts/2023-12-10-qPCR---Repeat-CAct-Primer-Test/">earlier today</a> (Notebook), I repeated this qPCR to see if I could get better replication and consistent melt curves across samples.</p>
+<section id="qpcrs" class="level2">
+<h2 class="anchored" data-anchor-id="qpcrs">qPCRs</h2>
+<p>All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction.</p>
+</section>
+<section id="qpcr-calculations" class="level2">
+<h2 class="anchored" data-anchor-id="qpcr-calculations">qPCR calculations</h2>
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1dnuJzmNqAzvgVht9TEDm5e1sXGLLLcDxT8YvYFmLQbg/edit?usp=sharing">20231210-qPCR_calcs</a> (Google Sheet)</li>
+</ul>
+</section>
+</section>
+<section id="results" class="level1">
+<h1>Results</h1>
+<section id="output-files" class="level2">
+<h2 class="anchored" data-anchor-id="output-files">Output files</h2>
+<section id="raw-qpcr-data-.pcrd-requires-cfx-maestro" class="level3">
+<h3 class="anchored" data-anchor-id="raw-qpcr-data-.pcrd-requires-cfx-maestro">Raw qPCR data (<code>.pcrd</code>; Requires CFX Maestro):</h3>
+<ul>
+<li><p><a href="../../../data/qPCR/testing/raw/sam_2023-12-10_09-26-24_Connect.pcrd"><code>sam_2023-12-10_09-26-24_Connect.pcrd</code></a></p>
+<ul>
+<li><p>“Analysis Mode” was set to “Target” (“Fluorophore” is the default.)</p></li>
+<li><p>Baseline threshold was set to “Regression”</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="qpcr-data-csv" class="level3">
+<h3 class="anchored" data-anchor-id="qpcr-data-csv">qPCR data (CSV):</h3>
+<ul>
+<li><a href="../../../data/qPCR/testing/exported/sam_2023-12-10_09-26-24_Connect-Quantification-Cq_Results.csv"><code>sam_2023-12-10_09-26-24_Connect-Quantification-Cq_Results.csv</code></a></li>
+</ul>
+</section>
+<section id="qpcr-report-pdf" class="level3">
+<h3 class="anchored" data-anchor-id="qpcr-report-pdf">qPCR Report (PDF):</h3>
+<ul>
+<li><a href="../../../data/qPCR/testing/cfx_reports/sam_2023-12-10_09-26-24_Connect.pdf"><code>sam_2023-12-10_07-50-37_Connect.pdf</code></a></li>
+</ul>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/https:/raw.githubusercontent.com/JPGLABHOME/SymbID_protbleach/main/data/qPCR/testing/exported/sam_2023-12-10_09-26-24-CAct-Amplification_plot.png" class="img-fluid figure-img" alt="CAct amplification plot. Green line is 1000pg input DNA and corresponds to a Cq value of ~37."></p>
+<figcaption class="figure-caption">CAct amplification plot. Green line is 1000pg input DNA and corresponds to a Cq value of ~37.</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/https:/raw.githubusercontent.com/JPGLABHOME/SymbID_protbleach/main/data/qPCR/testing/exported/sam_2023-12-10_09-26-24-CAct-Melt_plot.png" class="img-fluid figure-img" alt="CAct melt plot. Green peak is 1000ng input DNA."></p>
+<figcaption class="figure-caption">CAct melt plot. Green peak is 1000ng input DNA.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>Well, the results are similar to the previous run, in that there’s a single 1000pg replicate which amplifies at a Cq of ~37, while we no longer see amplification in any 100pg replicates. Admittedly, the latter was expected, based on the <a href="https://jpglabhome.github.io/SymbID_protbleach/posts/2023-12-10-qPCR---Repeat-CAct-Primer-Test/">different melting temp of the 100pg product seen previously</a>; i.e.&nbsp;the previous amplification of 100pg DNA wasn’t “real.”</p>
+<p>However, what was not expected was my continued inability to produce proper technical replicates. I’m wondering if the sensitivity of this primer is low enough that it’s causing a large (i.e.&nbsp;~3 Cq) swing in Cqs between replicates. I’ll repeat this using the 10,000pg (10ng) stock to see if this improves replication…</p>
+
+
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <category>2023</category>
+  <category>CFX Connect</category>
+  <category>qPCR</category>
+  <category>CAct</category>
+  <guid>https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html</guid>
+  <pubDate>Tue, 10 Dec 2024 08:00:00 GMT</pubDate>
+</item>
 <item>
   <title>qPCR - Initial Primer Tests with Positive Control Serial Dilutions</title>
   <dc:creator>Sam White</dc:creator>

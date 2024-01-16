@@ -2,6 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2023/2023-12-12-qPCR---CAct-Primer-Test-With-10ng-Input-DNA/index.html",
+      "/posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/index.html",
+      "/posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html",
       "/posts/2023/2023-11-19-qPCR---Initial-Primer-Tests-with-Positive-Control-Serial-Dilutions/index.html",
       "/posts/2023/2023-11-05-DNA-Quantification---Initial-DNA-Assessment-Using-Qubit-hsDNA-Assay/index.html"
     ]
