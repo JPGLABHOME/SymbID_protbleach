@@ -4,21 +4,21 @@
     "href": "index.html",
     "title": "University of Washington - SAFS - Padilla-Gamiño Lab",
     "section": "",
-    "text": "qPCR - CAct Primer Test With 10ng Input DNA\n\n\n\n\n\n\n\n2023\n\n\nqPCR\n\n\nCFX Connect\n\n\nCAct\n\n\n\n\n\n\n\n\n\n\n\nDec 12, 2024\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nqPCR - New CAct Primer Test\n\n\n\n\n\n\n\nCAct\n\n\nqPCR\n\n\nCFX Connect\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\nDec 10, 2024\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nqPCR - Repeat CAct Primer Test\n\n\n\n\n\n\n\n2023\n\n\nCFX Connect\n\n\nqPCR\n\n\nCAct\n\n\n\n\n\n\n\n\n\n\n\nDec 10, 2024\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nqPCR - Initial Primer Tests with Positive Control Serial Dilutions\n\n\n\n\n\n\n\nqPCR\n\n\nCFX Connect\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\nNov 19, 2023\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nDNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay\n\n\n\n\n\n\n\n2023\n\n\nQubit\n\n\nhsDNA\n\n\nDNA quantification\n\n\n\n\n\n\n\n\n\n\n\nNov 5, 2023\n\n\nSam White\n\n\n\n\n\n\nNo matching items"
+    "text": "qPCR - CAct Primer Test With 10ng Input DNA\n\n\n\n\n\n\n\n2023\n\n\nqPCR\n\n\nCFX Connect\n\n\nCAct\n\n\n\n\n\n\n\n\n\n\n\nDec 12, 2024\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nqPCR - Repeat CAct Primer Test\n\n\n\n\n\n\n\n2023\n\n\nCFX Connect\n\n\nqPCR\n\n\nCAct\n\n\n\n\n\n\n\n\n\n\n\nDec 10, 2024\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nqPCR - New CAct Primer Test\n\n\n\n\n\n\n\nCAct\n\n\nqPCR\n\n\nCFX Connect\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\nDec 10, 2024\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nqPCR - Initial Primer Tests with Positive Control Serial Dilutions\n\n\n\n\n\n\n\nqPCR\n\n\nCFX Connect\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\nNov 19, 2023\n\n\nSam White\n\n\n\n\n\n\n  \n\n\n\n\nDNA Quantification - Initial DNA Assessment Using Qubit hsDNA Assay\n\n\n\n\n\n\n\n2023\n\n\nQubit\n\n\nhsDNA\n\n\nDNA quantification\n\n\n\n\n\n\n\n\n\n\n\nNov 5, 2023\n\n\nSam White\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html",
     "href": "posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html",
     "title": "qPCR - Repeat CAct Primer Test",
     "section": "",
-    "text": "Due to odd results from earlier today (Notebook), I repeated this qPCR to see if I could get better replication and consistent melt curves across samples.\n\n\nAll qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction.\n\n\n\n\n20231210-qPCR_calcs (Google Sheet)"
+    "text": "Due to odd results from earlier today (Notebook), I repeated this qPCR to see if I could get better replication and consistent melt curves across samples.\n\n\nAll qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix (PDF; Bio-Rad) in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction.\n\n\n\n\n20231210-qPCR_calcs (Google Sheet)"
   },
   {
     "objectID": "posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html#qpcrs",
     "href": "posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html#qpcrs",
     "title": "qPCR - Repeat CAct Primer Test",
     "section": "",
-    "text": "All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction."
+    "text": "All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix (PDF; Bio-Rad) in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction."
   },
   {
     "objectID": "posts/2023/2023-12-10-qPCR---Repeat-CAct-Primer-Test/index.html#qpcr-calculations",
@@ -102,14 +102,14 @@
     "href": "posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/index.html",
     "title": "qPCR - New CAct Primer Test",
     "section": "",
-    "text": "Previous qPCR from 20231119 had poor results with the CAct primer set (C symbiont). No amplication at 1000pg, a single sample amplified at 100pg, and no amplification at 10pg of input DNA. I opted to order a replacement of the CAct primer set and repeat the qPCRs using the same serial dilution series and only this new CAct primer set.\n\n\nAll qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction.\n\n\n\n\n20231210-qPCR_calcs (Google Sheet)"
+    "text": "Previous qPCR from 20231119 had poor results with the CAct primer set (C symbiont). No amplication at 1000pg, a single sample amplified at 100pg, and no amplification at 10pg of input DNA. I opted to order a replacement of the CAct primer set and repeat the qPCRs using the same serial dilution series and only this new CAct primer set.\n\n\nAll qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix (PDF; Bio-Rad) in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction.\n\n\n\n\n20231210-qPCR_calcs (Google Sheet)"
   },
   {
     "objectID": "posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/index.html#qpcrs",
     "href": "posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/index.html#qpcrs",
     "title": "qPCR - New CAct Primer Test",
     "section": "",
-    "text": "All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction."
+    "text": "All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix (PDF; Bio-Rad) in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction."
   },
   {
     "objectID": "posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/index.html#qpcr-calculations",
