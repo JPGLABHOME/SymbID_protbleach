@@ -1,4 +1,4 @@
-`SymbID_protbleach/data`
+`JPGLABHOME/SymbID_protbleach/data`
 
 Directories for storing raw data. See README files in subdirectories for specific descriptions of each type of data.
 
