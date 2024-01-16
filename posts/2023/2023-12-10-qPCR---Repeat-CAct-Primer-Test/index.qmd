@@ -15,10 +15,10 @@ categories:
 ---
 # Intro
 
-Due to odd results from [earlier today](https://jpglabhome.github.io/SymbID_protbleach/posts/2023-12-10-qPCR---Repeat-CAct-Primer-Test/) (Notebook), I repeated this qPCR to see if I could get better replication and consistent melt curves across samples.
+Due to odd results from [earlier today](https://jpglabhome.github.io/SymbID_protbleach/posts/2023/2023-12-10-qPCR---New-CAct-Primer-Test/) (Notebook), I repeated this qPCR to see if I could get better replication and consistent melt curves across samples.
 
 ## qPCRs
-All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction.
+All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with [SsoAdvanced Universal SYBR Green Supermix](https://www.bio-rad.com/sites/default/files/webroot/web/pdf/lsr/literature/10000076382.pdf) (PDF; Bio-Rad) in 20uL reactions. The CAct primers were utilized with an initial “working stock” concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction.
 
 ## qPCR calculations
 

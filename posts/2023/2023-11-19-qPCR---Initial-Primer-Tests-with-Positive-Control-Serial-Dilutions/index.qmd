@@ -49,7 +49,7 @@ Created the 10,000pg/uL stock solution:
 
 ## qPCRs
 
-All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with SsoAdvanced Universal SYBR Green Supermix in 20uL reactions. Each primer was utilized with an initial "working stock" concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction. See the [qPCR Report](#qpcr-report-(pdf)) for cycling parameters.
+All qPCRs were run in triplicate for each dilution (1000pg, 100pg, 10pg), with [SsoAdvanced Universal SYBR Green Supermix](https://www.bio-rad.com/sites/default/files/webroot/web/pdf/lsr/literature/10000076382.pdf) (PDF; Bio-Rad) in 20uL reactions. Each primer was utilized with an initial "working stock" concentration of 10uM and at a final concentration of 0.25uM in each qPCR reaction. See the [qPCR Report](#qpcr-report-(pdf)) for cycling parameters.
 
 ### qPCR calculations are here:
 
